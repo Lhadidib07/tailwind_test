@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="/dist/output.css" rel="stylesheet">
+    <title>Document</title>
+  </head>
+  <body>
+
+    <nav class="container  mx-auto p-5">
+      <div class="flex items-center justify-between">
+        <div class="flex items-start justify-normal">
+          <img src="\img\tailwind-svgrepo-com.svg" alt=" tailwind logo" width="45px"><!-- logo -->
+          <div class=" pl-2 pt-2 font-semibold text-2xl"> tailwind </div>
+        </div> 
+        <div class="hidden md:flex space-x-6 ">
+          <a href="" class=" pl-2 pt-2  text-sky-900 hover:text-sky-400 ">Portfolio</a>
+          <a href="" class="pl-2 pt-2 text-sky-900 hover:text-sky-400">About</a>
+          <a href="" class="pl-2 pt-2 text-sky-900 hover:text-sky-400">Contact</a>
+          <a href="" class="py-2 px-3 rounded-full text-white bg-sky-400 hover:bg-sky-900"> call Me</a>
+        </div>
+        <div class=" md:hidden space-x-6 "> 
+          <button  id="mobile-btn">
+            <i class="ri-menu-fill text-2xl" ></i>
+          </button>
+        </div>
+      </div>
+      <div class="md:hidden"> 
+        <div id="mobile-menu" class="absolute flex hidden flex-col items-center space-y-4 font-bold drop-shadow-lg bg-sky-50 py-8 left-6 right-6 ">
+            <a href="" class=" pl-2 pt-2  text-sky-900 hover:text-sky-400 ">Portfolio</a>
+            <a href="" class="pl-2 pt-2 text-sky-900 hover:text-sky-400">About</a>
+            <a href="" class="pl-2 pt-2 text-sky-900 hover:text-sky-400">Contact</a>
+            <a href="" class="py-2 px-3 rounded-full text-white bg-sky-400 hover:bg-sky-900"> call Me</a>
+        </div>
+      </div>
+    </nav> 
+    <section id="hero" >
+      <div class="container mx-auto px-6 space-x-6 flex flex-col-reverse md:flex-row">
+        <div class="flex flex-col justify-center space-y-6 text-center md:w-1/2 text-left">
+          <h1 class="font-bold text-3xl md:text-5xl">Lorem ipsum dolor sit, amet consectetur </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, temporibus odio! Sit mollitia suscipit eius explicabo placeat dicta quaerat totam aliquid, aperiam ducimus earum hic deserunt, asperiores illum fugiat eos?
+          </p>
+          <a href="" class="py-2 px-3 rounded-full text-white bg-sky-400 hover:bg-sky-900 w-32 text-center self-center "> contact me </a>
+  
+        </div>
+        <div class=" pb-10 md:w-1/2 py-0">
+          <img src="\img\undraw_programming_re_kg9v.svg" alt="">
+        </div>
+      </div>
+    </section>
+    <section id="author"> 
+      <div class=" container mx-auto my-32 text-center">
+        <h2 class="font-bold text-4xl text-center">
+          " Best Practice " , Dont actually Work 
+        </h2> 
+        <p class="mt-8 text-center">
+          Contextual Differences: Best practices are typically based on successful experiences in specific contexts. However, each situation or organization is unique, and what works well in one context may not necessarily work in another. Factors such as company size, industry, culture, and external environment can significantly impact the effectiveness of best practices.
+        </p>
+        <div class="mt-16 flex flex-col space-x-5 space-y-5 md:flex-row md:space-x-5 md:space-y-0 ">
+
+          <div class="md:w-1/3 flex items-center flex-col p-6 bg-sky-100 space-y-2 rounded-lg border  ">
+            <img src="\img\jake-nackos-IF9TK5Uy-KI-unsplash.jpg" alt="miloud" class="w-16 h-16 rounded-full">
+            <h5 class="font-bold text-lg text-slate-900">zingoulou </h5>
+            <p class="leading-6 text-sm text-slate-700">LRapidly Changing Environments: Best practices are often derived from past experiences and may not keep pace with rapidly evolving technologies, markets, or customer preferences. In dynamic environments, what was once considered a best practice may quickly become outdated or ineffective.</p>
+          </div>
+          <div class="md:w-1/3 flex items-center flex-col p-6 bg-sky-100 space-y-2 rounded-lg border ">
+            <img src="\img\parmanand-jagnandan-A116mj5sNfg-unsplash.jpg" alt="miloud" class="w-16 h-16 rounded-full">
+            <h5 class="font-bold text-lg text-slate-900">tringlou </h5>
+            <p class="leading-6 text-sm text-slate-700">Lack of Flexibility: Best practices are often presented as rigid rules or standardized processes. However, blindly following these practices without considering the specific needs and characteristics of an organization can lead to suboptimal results. It is essential to adapt and tailor best practices to suit the unique circumstances of a particular situation</p>
+          </div>
+          <div class="md:w-1/3 flex items-center flex-col p-6 bg-sky-100 space-y-2 rounded-lg border ">
+            <img src="\img\michael-dam-mEZ3PoFGs_k-unsplash.jpg" alt="miloud" class="w-16 h-16 rounded-full ">
+            <h5 class="font-bold text-lg text-slate-900">firnglou </h5>
+            <p class="leading-6 text-sm text-slate-700">Human Factors: Best practices may assume rational and consistent behavior from individuals or groups. However, human behavior is complex and can be influenced by various psychological, social, and cultural factors. People may not always adhere to best practices due to resistance to change, lack of awareness, or personal biases.</p>
+          </div>
+        
+       
+        </div>
+
+      </div>
+
+    </section> 
+    <footer class="bg-sky-950 py-10 "> 
+      <div class="container content-center md:mx-auto flex flex-col-reverse  md:flex-row text-white md:space-x-20 md:space-y-2 justify-around">
+
+        <div class="my-5  flex flex-col items-center md:items-start space-y-2"> 
+          <div class="flex items-start justify-normal">
+            <img src="\img\tailwind-svgrepo-com.svg" alt=" tailwind logo" width="45px"><!-- logo -->
+            <div class=" pl-2 pt-2 font-semibold text-2xl"> tailwind </div>
+          </div> 
+          <div class="space-x-4 flex items-center justify-between   md:items-center" >
+            <a href=""> <i class="ri-instagram-line text-3xl"></i></a>
+            <a href=""> <i class="ri-facebook-line text-3xl"> </i></a>
+            <a href=""> <i class="ri-github-fill text-3xl">  </i> </a>
+            <a href=""> <i class="ri-mail-line text-3xl"> </i></a>
+          </div>
+          <div class="self-center">
+            copyright &copy; 2023 all right hamid 
+          </div>
+        </div>
+
+        <div class=" my-5  md:self-center flex flex-row  justify-around space-x-32">
+          <div class="flex flex-col space-y-2">
+            <a href="" class="hover:text-slate-300">Home</a>
+            <a href="" class="hover:text-slate-300">About</a>
+            <a href="" class="hover:text-slate-300">Contact</a>
+          </div>
+          <div class="flex flex-col space-y-2">
+            <a href="" class="hover:text-slate-300">imprimer</a>
+            <a href="" class="hover:text-slate-300">Aprivacy</a>
+            <a href="" class="hover:text-slate-300">Credits</a>
+          </div>
+        </div>
+
+        <div class=" my-5 self-center flex flex-col justify-between md:items-center">
+          <form action="#" class="flex flex-col">
+            <input type="text" placeholder="Subscripe to the Newslatter" class=" flex-1 my-3 py-2 rounded-full px-4">
+            <button class="py-2 px-3 rounded-full text-white bg-sky-400 hover:bg-sky-900 w-32 text-center self-center md:self-start"> s'abonner</button>
+          </form>
+        </div>
+
+      </div>
+
+    </footer>
+  </body>
+  <script src="\dist\js\script.js"></script>
+</html>
+
